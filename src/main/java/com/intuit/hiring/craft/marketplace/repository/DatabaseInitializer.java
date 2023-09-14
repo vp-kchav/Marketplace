@@ -16,7 +16,7 @@ import com.intuit.hiring.craft.marketplace.domain.Job;
 import com.intuit.hiring.craft.marketplace.domain.JobStatus;
 import com.intuit.hiring.craft.marketplace.domain.User;
 
-//@Component
+@Component
 public class DatabaseInitializer {
     private JobRepository jobRepository;
     private UserRepository userRepository;
